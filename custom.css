@@ -1,0 +1,9 @@
+/* 全局默认：思源宋体 */
+body, html, div, p, li, span {
+    font-family: "Source Han Serif CN", "Noto Serif SC", serif !important;
+}
+
+/* 标题单独统一 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Han Serif CN", "Noto Serif SC", serif !important;
+}
