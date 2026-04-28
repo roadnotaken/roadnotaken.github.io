@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Project</title>
+    <title>Posts on 明室</title>
     <link>https://roadnotaken.github.io/posts/</link>
-    <description>Recent content in Posts on My New Hugo Project</description>
+    <description>Recent content in Posts on 明室</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>zh-CN</language>
     <lastBuildDate>Tue, 28 Apr 2026 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://roadnotaken.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
