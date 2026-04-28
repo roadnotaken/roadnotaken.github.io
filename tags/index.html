@@ -4,7 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="">
-    <title>Tags</title>
+    <title id="pageTitle">明室</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const darkModeToggle = document.getElementById('darkModeToggle');
+            const pageTitle = document.getElementById('pageTitle');
+            
+            function updateTitle() {
+                const isDarkMode = localStorage.getItem('darkMode') === 'true';
+                if (isDarkMode) {
+                    pageTitle.textContent = '暗房';
+                } else {
+                    pageTitle.textContent = '明室';
+                }
+            }
+            
+            updateTitle();
+            
+            if (darkModeToggle) {
+                darkModeToggle.addEventListener('change', updateTitle);
+            }
+        });
+    </script>
     <link rel="canonical" href="https://roadnotaken.github.io/tags/">
 
 
