@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>明室</title>
+    <title>明室-暗房</title>
     <link>https://roadnotaken.github.io/</link>
-    <description>Recent content on 明室</description>
+    <description>Recent content on 明室-暗房</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 28 Apr 2026 12:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 Apr 2026 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://roadnotaken.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何买下一座艺术馆</title>
+      <link>https://roadnotaken.github.io/posts/coushu1/</link>
+      <pubDate>Wed, 29 Apr 2026 12:00:00 +0800</pubDate>
+      <guid>https://roadnotaken.github.io/posts/coushu1/</guid>
+      <description>&lt;p&gt;哈哈哈哈！&lt;/p&gt;&#xA;&lt;p&gt;嘿嘿嘿嘿！&lt;/p&gt;&#xA;&lt;p&gt;what the fuck are you talking!?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>第三种黑猩猩</title>
+      <link>https://roadnotaken.github.io/posts/coushu2/</link>
+      <pubDate>Wed, 29 Apr 2026 12:00:00 +0800</pubDate>
+      <guid>https://roadnotaken.github.io/posts/coushu2/</guid>
+      <description>&lt;p&gt;哈哈哈哈！&lt;/p&gt;&#xA;&lt;p&gt;嘿嘿嘿嘿！&lt;/p&gt;&#xA;&lt;p&gt;what the fuck are you talking!?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>我要测试一下标注的内容</title>
       <link>https://roadnotaken.github.io/posts/test2/</link>
