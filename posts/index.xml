@@ -9,11 +9,11 @@
     <lastBuildDate>Tue, 28 Apr 2026 00:04:20 +0800</lastBuildDate>
     <atom:link href="https://roadnotaken.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>我的第二篇博客</title>
+      <title>测试一下脚注的内容哈</title>
       <link>https://roadnotaken.github.io/posts/test/</link>
       <pubDate>Tue, 28 Apr 2026 00:04:20 +0800</pubDate>
       <guid>https://roadnotaken.github.io/posts/test/</guid>
-      <description>&lt;p&gt;哈哈哈哈，傻逼！&lt;/p&gt;</description>
+      <description>&lt;p&gt;# 脚注&lt;/p&gt;&#xA;&lt;p&gt;1. 行内脚注&lt;/p&gt;&#xA;&lt;p&gt;   让我们来看看行内脚注^[这是直接显示在行内的脚注内容。]是个什么东西。&lt;/p&gt;&#xA;&lt;p&gt;   &lt;code&gt;正文^\[脚注]&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;   在阅读模式下，两种脚注的效果是一样的。在渲染模式下，行内脚注会直接显示在行内。其实这样也不简洁啦。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;2. 常规脚注&lt;/p&gt;&#xA;&lt;p&gt;   其实这个功能在Obi[^2]里面已经自动化了。&lt;/p&gt;&#xA;&lt;p&gt;   不过如果你好奇如何手写代码：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;鲁迅原名是什么\[^1] ，浙江哪里人\[^2]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;!-- 这里是变量区域 --&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;\[^1]: 周树人&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;\[^2]: 绍兴人&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;[^2]: Obi：指这款软件Obsidian，英文是黑曜石的意思。&lt;/p&gt;&#xA;&lt;p&gt;这行文字无论如何会显示在文档的末尾，编辑模式会显示在你输入的地方。&lt;/p&gt;</description>
     </item>
     <item>
       <title>测试2</title>

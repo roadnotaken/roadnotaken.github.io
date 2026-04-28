@@ -1,9 +1,38 @@
-/* 全局默认：思源宋体 */
-body, html, div, p, li, span {
-    font-family: "Source Han Serif CN", "Noto Serif SC", serif !important;
+/* 1. 定义思源宋体的不同字重 */
+/* 常规字重（正文用，对应Regular） */
+@font-face {
+  font-family: "SourceHanSerifCN";
+  src: url("/fonts/SourceHanSerifCN-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; /* 优化加载，先显示系统字体，加载完再替换 */
 }
 
-/* 标题单独统一 */
+/* 中等字重（可选，对应Medium） */
+@font-face {
+  font-family: "SourceHanSerifCN";
+  src: url("/fonts/SourceHanSerifCN-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 粗体字重（标题用，对应Bold） */
+@font-face {
+  font-family: "SourceHanSerifCN";
+  src: url("/fonts/SourceHanSerifCN-Bold_0.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. 全站设置：正文用常规字重，标题用粗体 */
+body, p, li, span, a {
+  font-family: "SourceHanSerifCN", serif !important;
+  font-weight: 400;
+}
+
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Source Han Serif CN", "Noto Serif SC", serif !important;
+  font-family: "SourceHanSerifCN", serif !important;
+  font-weight: 700;
 }
