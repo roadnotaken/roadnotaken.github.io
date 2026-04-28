@@ -19,7 +19,7 @@
         <foreignObject x="80" y="200" width="840" height="300">
             <div xmlns="http://www.w3.org/1999/xhtml">
                 <div style="font-family: Newsreader, serif; font-size: 78px; font-weight: 600; margin-bottom: 20px; word-wrap: break-word;">测试2</div>
-                <div style="font-family: Newsreader, serif; font-size: 70px; font-weight: 400; word-wrap: break-word;">这是一个测试。 「你知道吗？虽然说大家」[^1] [^1]: 测试</div>
+                <div style="font-family: Newsreader, serif; font-size: 70px; font-weight: 400; word-wrap: break-word;">这是一个测试。1 测试和人类的生活到底有什么不同？ ↩︎</div>
             </div>
         </foreignObject>
     </svg>
