@@ -4,28 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="">
-    <title id="pageTitle">明室</title>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const darkModeToggle = document.getElementById('darkModeToggle');
-            const pageTitle = document.getElementById('pageTitle');
-            
-            function updateTitle() {
-                const isDarkMode = localStorage.getItem('darkMode') === 'true';
-                if (isDarkMode) {
-                    pageTitle.textContent = '暗房';
-                } else {
-                    pageTitle.textContent = '明室';
-                }
-            }
-            
-            updateTitle();
-            
-            if (darkModeToggle) {
-                darkModeToggle.addEventListener('change', updateTitle);
-            }
-        });
-    </script>
+    <title>明室</title>
     <meta name="robots" content="noindex, nofollow">
     <link rel="preload" href="/fonts/Newsreader.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="/css/default.min.f439b63083fcc2ff42dd0730a2c7359ca5db69fed2ad81e61366790cefe80a18.css" integrity="sha256-9Dm2MIP8wv9C3Qcwosc1nKXbaf7SrYHmE2Z5DO/oChg=">
