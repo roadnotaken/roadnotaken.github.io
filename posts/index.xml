@@ -6,21 +6,14 @@
     <description>Recent content in Posts on My New Hugo Project</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 28 Apr 2026 00:04:20 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 12:00:00 +0800</lastBuildDate>
     <atom:link href="https://roadnotaken.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>测试一下脚注的内容哈</title>
-      <link>https://roadnotaken.github.io/posts/test/</link>
-      <pubDate>Tue, 28 Apr 2026 00:04:20 +0800</pubDate>
-      <guid>https://roadnotaken.github.io/posts/test/</guid>
-      <description>&lt;p&gt;# 脚注&lt;/p&gt;&#xA;&lt;p&gt;1. 行内脚注&lt;/p&gt;&#xA;&lt;p&gt;   让我们来看看行内脚注^[这是直接显示在行内的脚注内容。]是个什么东西。&lt;/p&gt;&#xA;&lt;p&gt;   &lt;code&gt;正文^\[脚注]&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;   在阅读模式下，两种脚注的效果是一样的。在渲染模式下，行内脚注会直接显示在行内。其实这样也不简洁啦。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;2. 常规脚注&lt;/p&gt;&#xA;&lt;p&gt;   其实这个功能在Obi[^2]里面已经自动化了。&lt;/p&gt;&#xA;&lt;p&gt;   不过如果你好奇如何手写代码：&lt;/p&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;鲁迅原名是什么\[^1] ，浙江哪里人\[^2]&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;!-- 这里是变量区域 --&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;\[^1]: 周树人&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;\[^2]: 绍兴人&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;[^2]: Obi：指这款软件Obsidian，英文是黑曜石的意思。&lt;/p&gt;&#xA;&lt;p&gt;这行文字无论如何会显示在文档的末尾，编辑模式会显示在你输入的地方。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>你这个臭标注</title>
+      <title>我要测试一下标注的内容</title>
       <link>https://roadnotaken.github.io/posts/test2/</link>
-      <pubDate>Mon, 28 Apr 2025 12:00:00 +0800</pubDate>
+      <pubDate>Tue, 28 Apr 2026 12:00:00 +0800</pubDate>
       <guid>https://roadnotaken.github.io/posts/test2/</guid>
-      <description>&lt;p&gt;这&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;是一个谎言。&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&#xA;&lt;p&gt;然后我想看看把脚注不放在文内会怎么样。&lt;/p&gt;&#xA;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol&gt;&#xA;&lt;li id=&#34;fn:1&#34;&gt;&#xA;&lt;p&gt;牛津大学词典&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li id=&#34;fn:2&#34;&gt;&#xA;&lt;p&gt;谎言与真实据说一体两面&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/div&gt;</description>
+      <description>&lt;h1 id=&#34;第一&#34;&gt;第一&lt;a class=&#34;anchor&#34; aria-hidden=&#34;true&#34; href=&#34;#%e7%ac%ac%e4%b8%80&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;p&gt;这&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;是一个谎言。&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;第二然后我想看看把脚注不放在文内会怎么样&#34;&gt;第二，然后我想看看把脚注不放在文内会怎么样。&lt;a class=&#34;anchor&#34; aria-hidden=&#34;true&#34; href=&#34;#%e7%ac%ac%e4%ba%8c%e7%84%b6%e5%90%8e%e6%88%91%e6%83%b3%e7%9c%8b%e7%9c%8b%e6%8a%8a%e8%84%9a%e6%b3%a8%e4%b8%8d%e6%94%be%e5%9c%a8%e6%96%87%e5%86%85%e4%bc%9a%e6%80%8e%e4%b9%88%e6%a0%b7&#34;&gt;#&lt;/a&gt;&lt;/h1&gt;&#xA;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;&#xA;&lt;hr&gt;&#xA;&lt;ol&gt;&#xA;&lt;li id=&#34;fn:1&#34;&gt;&#xA;&lt;p&gt;牛津大学词典&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li id=&#34;fn:2&#34;&gt;&#xA;&lt;p&gt;谎言与真实据说一体两面&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;/div&gt;</description>
     </item>
     <item>
       <title>要不要在心里为他者留一间空房间？</title>
