@@ -18,8 +18,8 @@
         <rect width="1200" height="630" fill="#f0efea" />
         <foreignObject x="80" y="200" width="840" height="300">
             <div xmlns="http://www.w3.org/1999/xhtml">
-                <div style="font-family: Newsreader, serif; font-size: 78px; font-weight: 600; margin-bottom: 20px; word-wrap: break-word;">第三种黑猩猩我偏要让他恰好变得有点长但还不够</div>
-                <div style="font-family: Newsreader, serif; font-size: 70px; font-weight: 400; word-wrap: break-word;">在这广袤的世界中，我们何以为家？我就要让这个副标题的长度也长的吓死人。**然后我还要在里面加粗体**。</div>
+                <div style="font-family: Newsreader, serif; font-size: 78px; font-weight: 600; margin-bottom: 20px; word-wrap: break-word;">编程</div>
+                <div style="font-family: Newsreader, serif; font-size: 70px; font-weight: 400; word-wrap: break-word;"></div>
             </div>
         </foreignObject>
     </svg>
