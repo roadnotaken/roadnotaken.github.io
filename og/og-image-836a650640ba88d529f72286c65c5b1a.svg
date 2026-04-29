@@ -1,0 +1,26 @@
+
+    <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+        <style>
+            svg {
+              background-color: #f0efea;
+            }
+            @font-face {
+              font-family: 'Newsreader';
+              src: url('../fonts/Newsreader.woff2') format('woff2');
+            }
+            .title, .description {
+              font-family: 'Newsreader', serif;
+              fill: #141413;
+              text-anchor: start;
+              line-height: 1.1;
+            }
+        </style>
+        <rect width="1200" height="630" fill="#f0efea" />
+        <foreignObject x="80" y="200" width="840" height="300">
+            <div xmlns="http://www.w3.org/1999/xhtml">
+                <div style="font-family: Newsreader, serif; font-size: 78px; font-weight: 600; margin-bottom: 20px; word-wrap: break-word;">测试一下各级标题和加粗等要素，以及我来看看一个超级长的标题会怎么办——加上一个副标题试一试</div>
+                <div style="font-family: Newsreader, serif; font-size: 70px; font-weight: 400; word-wrap: break-word;">[!info] 这是我为了身边写作大赛撰写的稿子。 身边写作大赛：记录9月19日发生了什么。 目前状态：完稿、已发布小红书、提交比赛。 目前的心态：这种散文写的过于正能量，有种为了征文比赛而强行拔高、升华之做作。考虑推翻这样的风格，再也不写这样的文字，本篇只做记录。 我栖身于有限记录之中# 我最讨厌 …</div>
+            </div>
+        </foreignObject>
+    </svg>
+    
