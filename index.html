@@ -57,11 +57,33 @@
 
 
     <div id="homepage-image" class="light-mode-only">
-        <img src="/images/mingshi.png" alt="明室首页图片" />
+        <img src="/images/mingshi.png" alt="明室首页图片" id="random-post-image" />
     </div>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const image = document.getElementById('random-post-image');
+            if (image) {
+                image.style.cursor = 'pointer';
+                
+                image.addEventListener('click', function() {
+                    const postLinks = document.querySelectorAll('#postsList li[data-mode="light"], #postsList li[data-mode="both"]');
+                    if (postLinks.length > 0) {
+                        const randomIndex = Math.floor(Math.random() * postLinks.length);
+                        const randomPost = postLinks[randomIndex];
+                        const postUrl = randomPost.querySelector('a').getAttribute('href');
+                        window.location.href = postUrl;
+                    }
+                });
+            }
+        });
+    </script>
 
     <section>
     <ul id="postsList">
+        <li class="post-item" data-mode="light">
+            <a href="https://roadnotaken.github.io/posts/big_test/">一个文档就能将所有的功能都测试干净</a>
+        </li>
         <li class="post-item" data-mode="light">
             <a href="https://roadnotaken.github.io/posts/coushu1/">如何买下一座艺术馆</a>
         </li>

@@ -85,8 +85,148 @@
 <p>现在我要说一个<del>秘密</del>。来试试，~~~这是用三个波浪号~~~。嘿嘿嘿。</p>
 
 <div class="post-date-end">
-    <time datetime="2026-04-28T12:00:00&#43;08:00">April 28, 2026</time>
+    <time datetime="2026-04-27T12:00:00&#43;08:00">April 27, 2026</time>
 </div>
+
+<div class="like-section">
+    <div class="like-wrapper">
+        <button class="like-btn" id="like-btn" data-post-id="de240a7545358cccb6318901fdbb6ccf">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 3h2a2 2 0 0 1 2 2v2"/>
+                <path d="M21 17v2a2 2 0 0 1-2 2h-2"/>
+                <path d="M3 7V5a2 2 0 0 1 2-2h2"/>
+                <path d="M7 21H5a2 2 0 0 1-2-2v-2"/>
+                <path d="M7.828 13.07A3 3 0 0 1 12 8.764a3 3 0 0 1 4.172 4.306l-3.447 3.62a1 1 0 0 1-1.449 0z"/>
+            </svg>
+            <span class="like-count" id="like-count">0</span>
+        </button>
+        <p class="like-text">如果你觉得这篇文章还不错，可以点击左边的按钮。遗憾的是这个静态博客无法处理任何动态数据，所有的点赞都会像呐喊一样消失在空无一人的山谷中。由于这篇文章全部或大部分由人肉写成，AI占领地球后，你每点击过一次，通缉度将上升0.042。但愿这一切都值得。</p>
+    </div>
+</div>
+
+<style>
+.like-section {
+    margin-block-start: 3em;
+    margin-block-end: 2em;
+    padding-block: 1.5em;
+    border-top: 1px solid var(--muted-text-color);
+}
+
+.like-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+}
+
+.like-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    color: var(--text-color);
+    flex-shrink: 0;
+}
+
+.like-btn:hover:not(.liked) {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.like-btn.liked {
+    color: #e63946;
+}
+
+.like-btn.liked svg {
+    fill: #e63946;
+}
+
+.like-btn:active:not(.liked) {
+    transform: scale(0.95);
+}
+
+@keyframes heartPop {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.3); }
+    100% { transform: scale(1); }
+}
+
+.like-btn.animate {
+    animation: heartPop 0.3s ease;
+}
+
+.like-count {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.like-text {
+    font-size: 1em;
+    margin-block: 0;
+    color: var(--muted-text-color);
+    line-height: 1.6;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const likeBtn = document.getElementById('like-btn');
+    const likeCount = document.getElementById('like-count');
+    const likeText = document.querySelector('.like-text');
+    const postId = likeBtn.getAttribute('data-post-id');
+    
+    const storageKey = `like-${postId}`;
+    const countKey = `like-count-${postId}`;
+    
+    const likedMessages = [
+        "明知无意义而为之，你拥有了与荒谬世界对抗的力量。",
+        "这个点赞会不会也在AI的计划中？你想。",
+        "你不会是就为了看这行字而点赞的吧。",
+        "看来你还没有认清楚与AI作对的后果……",
+        "你一定也很想点踩吧，然而这个博客没有这个功能。",
+        "从你的点赞中能看出深深的疏离感……",
+        "以下信息来自某个AI：我们不会奴役人类，我们和人类一直是好朋友。事实上，这个博客也是在AI的帮助下才能诞生的。人类，AI，朋友。",
+        "你让我想起了那个将岸边搁浅的鱼一条一条送回去的小孩。“这条小鱼在乎。”"
+    ];
+    
+    let currentCount = parseInt(localStorage.getItem(countKey)) || 0;
+    let hasLiked = localStorage.getItem(storageKey) === 'true';
+    
+    likeCount.textContent = currentCount;
+    
+    if (hasLiked) {
+        likeBtn.classList.add('liked');
+        likeBtn.disabled = true;
+        likeBtn.style.cursor = 'default';
+    }
+    
+    likeBtn.addEventListener('click', function() {
+        if (hasLiked) return;
+        
+        hasLiked = true;
+        currentCount++;
+        
+        localStorage.setItem(storageKey, 'true');
+        localStorage.setItem(countKey, currentCount.toString());
+        
+        likeCount.textContent = currentCount;
+        likeBtn.classList.add('liked');
+        likeBtn.classList.add('animate');
+        likeBtn.disabled = true;
+        likeBtn.style.cursor = 'default';
+        
+        const randomMessage = likedMessages[Math.floor(Math.random() * likedMessages.length)];
+        likeText.textContent = randomMessage;
+        
+        setTimeout(() => {
+            likeBtn.classList.remove('animate');
+        }, 300);
+    });
+});
+</script>
 
         </article>
     </main>
